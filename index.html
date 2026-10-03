@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nonsi11 — Разработчик</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  padding: 40px 30px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+h1 { font-size: 28px; margin-bottom: 8px; }
+.subtitle { color: #888; margin-bottom: 24px; font-size: 14px; }
+.links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.links a {
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+.links a:hover { background: rgba(255,255,255,0.2); }
+.skills {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #aaa;
+  font-size: 13px;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👨‍💻</div>
+    <h1>Nonsi11</h1>
+    <p class="subtitle">Разработчик Telegram-ботов</p>
+    <div class="links">
+      <a href="https://t.me/Nonsi11">Telegram</a>
+      <a href="https://github.com/nonsi11">GitHub</a>
+    </div>
+    <div class="skills">
+      Python · Aiogram · SQLite · Telegram Bot API
+    </div>
+  </div>
+</body>
+</html>
